@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px;
+}
+.container {
+  width: auto;
+  padding: auto;
+}
+.menu {
+  padding: 10px;
+  text-align: center;
+}
+p {
+  padding: 25px;
+}
+.inner-shell {
+  border: 2px solid black;
+  width: 32%;
+  margin: 5px;
+  display: block;
+  float: left;
+  position: relative;
+  background-color: rgb(212, 212, 212);
+  padding-top: 20px;
+}
+.inner-shell2 {
+  border: 2px solid black;
+  width: 32%;
+  margin: 5px;
+  display: block;
+  float: left;
+  position: relative;
+  background-color: rgb(212, 212, 212);
+  padding-top: 20px;
+}
+.inner-shell3 {
+  border: 2px solid black;
+  width: 32%;
+  margin: 5px;
+  display: block;
+  float: left;
+  position: relative;
+  background-color: rgb(212, 212, 212);
+  padding-top: 20px;
+}
+.absolute-1 {
+  position: absolute;
+  display: block;
+  border: 2px solid black;
+  right: 0;
+  top: 0;
+  padding: 7px 20px;
+  background-color: blueviolet;
+  color: white;
+}
+.absolute-2 {
+  position: absolute;
+  display: block;
+  border: 2px solid black;
+  right: 0;
+  top: 0;
+  padding: 7px 20px;
+  background-color: red;
+  color: white;
+}
+.absolute-3 {
+  position: absolute;
+  display: block;
+  border: 2px solid black;
+  right: 0;
+  top: 0;
+  padding: 7px 20px;
+  background-color: green;
+  color: white;
+}
+@media screen and (min-width: 992px) {
+  .container {
+    width: auto;
+  }
+  .inner-shell {
+    border: 2px solid black;
+    width: 32%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+  }
+  .inner-shell2 {
+    border: 2px solid black;
+    width: 32%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+  }
+  .inner-shell3 {
+    border: 2px solid black;
+    width: 32%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .container {
+    margin: 10px;
+  }
+  .inner-shell {
+    border: 2px solid black;
+    width: 47%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+  }
+  .inner-shell2 {
+    border: 2px solid black;
+    width: 47%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+    float: right;
+  }
+  .inner-shell3 {
+    border: 2px solid black;
+    width: 100%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    width: auto;
+  }
+  .inner-shell {
+    border: 2px solid black;
+    width: 32%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+  }
+  .inner-shell2 {
+    border: 2px solid black;
+    width: 32%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+  }
+  .inner-shell3 {
+    border: 2px solid black;
+    width: 32%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 10px;
+  }
+  .inner-shell {
+    border: 2px solid black;
+    width: 100%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+  }
+  .inner-shell2 {
+    border: 2px solid black;
+    width: 100%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+  }
+  .inner-shell3 {
+    border: 2px solid black;
+    width: 100%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+  }
+}
